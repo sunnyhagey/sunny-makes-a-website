@@ -4,4 +4,27 @@
 
 body {
     text-align: center;
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#sources {
+    text-align: left;
+}
+
+#box {
+    border:1px solid #999999;
+  color:black;
+  font-size:14px;
+  width:60%;
+  position: relative;
+  display: inline-block;
+  height: auto;
+  background-color: white;
+}
+
+.img {
+    max-height: 100%;
+    max-width: 100%;
 }
